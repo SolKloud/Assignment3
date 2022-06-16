@@ -1,0 +1,21 @@
+<h2>SHOPPING CART</h2>
+
+BOOKS:
+<input type="checkbox" id="Books" name="Books" value="Books" #books (click)="addItem(books.value)"><br>
+
+PEN:
+<input type="checkbox" id="Pens" name="Pens" value="Pens" #pens (click)="addItem(pens.value)"><br>
+
+
+TSHIRTS:
+<input type="checkbox" id="Tshirt" name="Tshirt" value="Tshirt" #tshirt (click)="addItem(tshirt.value)"><br>
+
+
+SHOES:
+<input type="checkbox" id="Shoes" name="Shoes" value="Shoes" #shoes (click)="addItem(shoes.value)"><br>
+
+
+GROCERIES:
+<input type="checkbox" id="Groceries" name="Groceries" value="Groceries" #groceries (click)="addItem(groceries.value)"><br><br>
+
+<button (click)="onAddItems()">Shopping List</button>
